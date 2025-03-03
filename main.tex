@@ -1,0 +1,33 @@
+% --------------------------------------
+%       PLEASE SEE README.MD
+% --------------------------------------
+
+\documentclass[
+    letterpaper,
+    10pt,
+    unnumberedsections,
+    twoside
+]{LTJournalArticle}
+
+\runninghead{Biomimetic Hydrogel-Scaffold for Tendon and Ligament Repair}
+\footertext{}
+
+\usepackage{lipsum} % Lorem ipsum text for formatting
+\usepackage{subfiles}
+
+\title{Biomimetic Hydrogel-Scaffold for Tendon and Ligament Repair}
+\author{Lucas Chan, Luke Gailloux, Matt Levasseur, Edison Luke}
+
+\renewcommand{\maketitlehookd}{%
+    \begin{abstract}
+        \noindent \lipsum[1]
+    \end{abstract}
+}
+
+\begin{document}
+    \maketitle 
+
+    \section{Introduction}
+
+    \input{Subfiles/introduction.tex}
+\end{document}
