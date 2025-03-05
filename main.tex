@@ -13,7 +13,8 @@
 \footertext{}
 
 \usepackage{lipsum} % Lorem ipsum text for formatting
-\usepackage{subfiles}
+
+\addbibresource{references_lucas.bib}
 
 \title{Biomimetic Hydrogel-Scaffold for Tendon and Ligament Repair}
 \author{Lucas Chan, Luke Gailloux, Matt Levasseur, Edison Luke}
@@ -24,10 +25,20 @@
     \end{abstract}
 }
 
+\setlength{\parskip}{0pt plus 1pt}
+
 \begin{document}
     \maketitle 
 
     \section{Introduction}
 
     \input{Subfiles/introduction.tex}
+
+    \section{Hydrogel Structure and Composition}
+
+    \input{Subfiles/classification_structure.tex}
+
+    \section{Biocompatibility}
+
+    \input{Subfiles/biocompatibility.tex}
 \end{document}
